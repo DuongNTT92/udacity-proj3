@@ -21,10 +21,10 @@ spec:
           resources:
             requests:
               memory: "512Mi"
-              cpu: "250m"
+              cpu: "150m"
             limits:
               memory: "2048Mi"
-              cpu: "500m"
+              cpu: "300m"
           env:
             - name: URL
               valueFrom:
